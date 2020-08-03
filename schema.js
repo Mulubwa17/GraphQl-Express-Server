@@ -3,26 +3,23 @@ const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLInt,GraphQLList 
 
 const posts = [
     {
-      title: 'First post',
-      description: 'Content of the first post',
-      author: 'Flavio'
+      title: 'First graphQL project',
+      description: 'Created express graphQL server',
+      author: 'Mulubwa'
     },
     {
-      title: 'Second post',
-      description: 'Content of the second post',
-      author: 'Roger'
+      title: 'Testing APIs',
+      description: 'CRUD operations',
+      author: 'Mulubwa'
     }
   ]
   
   const authors = {
-    'Flavio': {
-      name: 'Flavio',
-      age: 36
-    },
-    'Roger': {
-      name: 'Roger',
-      age: 7
+    'Mulubwa': {
+      name: 'Mulubwa',
+      age: 27
     }
+   
   }
   
   
